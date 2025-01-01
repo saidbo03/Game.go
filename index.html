@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Tal3bat</title>
+     <link rel="stylesheet" href="Game.css">
+     <link rel="icon" href="./images/life.png">
+</head>
+<body>
+     
+     <section>
+          <div class="container">
+               <div class="Fighter1">
+                    <div class="img" id="img_ai">
+                         <div class="info">
+                              <h1>Artificial intelligence</h1>
+                         </div>
+                    </div>
+               </div>
+
+
+               <div class="Fighter2">
+                    <div class="img" id="img_Player">
+                         <div class="info">
+                              <h1>Your name </h1>
+                         </div>
+                    </div>
+               </div>
+               <img src="./images/vs.png" alt="">
+          </div>
+          
+     </section>
+     <footer>
+          <div class="chose">
+               <button class="chose1" onclick="Rock(),addAnimation()"></button>
+               <button class="chose2" onclick="scissors(),addAnimation()"></button>
+               <button class="chose3" onclick="paper(),addAnimation()""></button>
+          </div>
+     </footer>
+     <script src="Game.js"></script>
+</body>
+</html>

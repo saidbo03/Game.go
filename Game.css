@@ -1,0 +1,159 @@
+*{
+     margin: 0;
+     padding:0;
+     font-family: sans-serif;
+     box-sizing: border-box;
+}
+body{
+     background: rgb(255,255,240);
+background: radial-gradient(circle, rgba(255,255,240,1) 7%, rgba(22,129,225,1) 77%);
+}
+
+   /* style to header*/
+
+   /* style to section*/
+
+section{
+     width:100%;
+     height:60vh;
+     display: inline-flex;
+     justify-content: center;
+     margin-top: 6vh;
+     position: relative;
+}
+
+section .container{
+     width:80%;
+     border:2px solid #fff;
+     background-image: url(./images/4814407.jpg);
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     border-radius: 25px;
+     display: inline-flex;
+     justify-content: space-around;
+     align-items: center;
+
+}
+
+section .Fighter1,section .Fighter2{
+     width: 50%;
+     height:100%;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+}
+
+section .Fighter1{
+     border-radius:20px 0 0 20px ;
+}
+
+section .Fighter2{
+     border-radius:0px 20px 20px 0px ;
+}
+
+section .img{
+     width: 80%;
+     height: 80%;
+     border:3px solid #ffffff;
+     background-color: #37383a88;
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     border-radius: 20px;
+     display: inline-flex;
+     align-items: end;
+}
+
+section .Fighter1 .info{
+     background-color: #ffffff;
+     width: 60%;
+     height: 12%;
+     border-radius: 25px 0 0 25px;
+     margin:0 0  8% 40%;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+}
+
+section .Fighter2 .info{
+     background-color: #ffffff;
+     width: 60%;
+     height: 12%;
+     border-radius: 0px 25px 25px 0px;
+     margin-bottom:8% ;
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+}
+
+section img{
+     width: 25%;
+     position: absolute;
+}
+
+section .info>h1{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size:1.6vw;
+}
+ /* style to footer*/
+
+ footer{
+     width:100%;
+     height:30vh;
+     display: inline-flex;
+     justify-content: center;
+}
+
+footer .chose{
+     width: 80%;
+     display: inline-flex;
+     justify-content: space-evenly;
+}
+
+footer .chose1,footer .chose2,footer .chose3{
+     width:25%;
+     border-radius:25px;
+     border:3px solid #ffffff;
+     margin:2% 0;
+}
+footer .chose1:hover,footer .chose2:hover,footer .chose3:hover{
+     border-color: #3c916d;
+     background-color:#fff;
+     cursor:pointer;
+}
+
+footer .chose1{
+     background-image: url(./images/حجر.svg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+     direction:rtl;
+}
+
+footer .chose2{
+     background-image: url(./images/مقص.svg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+}
+
+footer .chose3{
+     background-image: url(./images/ورقة.svg);
+     background-repeat: no-repeat;
+     background-size: contain;
+     background-position: center;
+}
+
+ /* الكلاس الذي يحتوي على الأنيميشن */
+ .bounce {
+     animation: bounce 2s infinite;
+ }
+
+ /* تعريف الأنيميشن */
+ @keyframes bounce {
+     0%, 100% {
+         transform: translateY(0);
+     }
+     50% {
+         transform: translateY(-20px);
+     }
+ }
